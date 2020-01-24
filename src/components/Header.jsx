@@ -1,7 +1,6 @@
 import React from "react";
-function Header() {
-  const edad = 18;
-  return <h1>{edad}</h1>;
+function Header({ titulo }) {
+  return <h1 className="encabezado">{titulo}</h1>;
 }
 
 export default Header;
